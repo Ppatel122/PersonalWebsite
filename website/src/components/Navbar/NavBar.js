@@ -22,15 +22,15 @@ const NavBar = () => {
             </NavLink>
         </NavMenu>
         <NavMenu>
-            <NavBtn>
-                <NavBtnLink to="/contact"><a href="https://github.com/Ppatel122" class="social-link"><FaGithub/></a></NavBtnLink>
-            </NavBtn>
-            <NavBtn>
-                <NavBtnLink to="/contact"><a href="https://www.linkedin.com/in/pranj-patel-a1a4b81aa/" class="social-link"><FaLinkedin/></a></NavBtnLink>
-            </NavBtn>
-            <NavBtn>    
-                <NavBtnLink to="/contact"><a href="mailto:pranj@ualberta.ca" class="social-link"><SiGmail/></a></NavBtnLink>
-            </NavBtn>
+            <a href="https://github.com/Ppatel122" target="_blank">
+                <FaGithub size={40} color={"white"}/>
+            </a>
+            <a href="https://www.linkedin.com/in/pranj-patel-a1a4b81aa/" target="_blank">
+                <FaLinkedin size={40} color={"#0e76a8"} />
+            </a>
+            <a href="mailto:pranj@ualberta.ca" target="_blank">
+                <SiGmail size={40} color={"red"}/>
+            </a>
         </NavMenu>
       </Nav>
     </>

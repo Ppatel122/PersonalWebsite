@@ -6,7 +6,7 @@ export const Nav = styled.nav`
   height: 75px;
   display: flex;
   justify-content: space-between;
-  padding: 0.25rem calc((100vw - 1000px) / 2);
+  padding: 0.25rem calc((100vw - 1300px) / 2);
 `;
 
 export const NavLink = styled(Link)`
@@ -14,6 +14,7 @@ export const NavLink = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
+  padding: 0 1rem;
   height: 100%;
   cursor: pointer;
 
