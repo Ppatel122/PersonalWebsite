@@ -1,0 +1,43 @@
+.intro {
+    display: flex;
+    
+    
+    .left {
+        flex: 0.5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        
+
+        .wrapper {
+            width: 80%;
+            h1{
+                span {
+                    color: #15cdfc;
+                }
+            }
+        }
+    }
+    
+    .right {
+        flex: 0.50;
+        overflow: hidden;
+        background-color: #15cdfc;
+        border-radius: 100px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        .imgContainer{
+            width:700px;
+            height:700px;
+
+            img {
+                height: 100%;
+            }
+        }
+    }
+
+}
+
+
