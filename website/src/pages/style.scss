@@ -40,4 +40,36 @@
 
 }
 
+.education {
+    background-color: #ccffcc;
+    display:flex;
+
+        .left{
+            flex:0.7;
+        }
+
+        .right{
+            flex:0.3;
+            text-align: center;
+        }
+    
+}
+
+.experience {
+    background-color: #66ccff;
+
+
+
+        display:flex;
+
+        .left{
+            flex:0.3;
+            text-align: center;
+        }
+
+        .right{
+            flex:0.7;
+        }
+    
+}
 
