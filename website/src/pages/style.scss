@@ -1,6 +1,6 @@
 .intro {
     display: flex;
-    padding: 20px;
+    height: 100%;
     
     .left {
         flex: 0.5;
@@ -24,7 +24,7 @@
         flex: 0.50;
         overflow: hidden;
         background-color: #15cdfc;
-        border-radius: 100px;
+
         align-items: center;
         justify-content: center;
         display: flex;
@@ -43,14 +43,16 @@
 .education {
     background-color: #ccffcc;
     display:flex;
-
+    padding: 20px;
         .left{
-            flex:0.7;
+            flex:0.35;
+            text-align: center;
+            margin: auto;
         }
 
         .right{
-            flex:0.3;
-            text-align: center;
+            flex:0.65;
+
         }
     
 }
@@ -63,12 +65,13 @@
         display:flex;
 
         .left{
-            flex:0.3;
-            text-align: center;
+            flex:0.7;
+
         }
 
         .right{
-            flex:0.7;
+            flex:0.3;
+            text-align: center;
         }
     
 }

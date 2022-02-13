@@ -1,5 +1,7 @@
 import React from 'react';
+
 import experienceElements from './experienceElements';
+import {MdOutlineWork} from "react-icons/md";
 
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import "react-vertical-timeline-component/style.min.css";
@@ -10,10 +12,8 @@ const Experience = () => {
         <div className="experience" id="experience">
 
                 
-                <div className='left'>
-                <h1>Experience</h1>
-                </div>
-                <div className="right">
+
+                <div className="left">
                     <VerticalTimeline>
                             {
                                 experienceElements.map(element => {
@@ -37,6 +37,10 @@ const Experience = () => {
                                 })
                             }
                     </VerticalTimeline>
+                </div>
+                <div className='right'>
+                    <h1>Experience</h1>
+                    <MdOutlineWork size={200}></MdOutlineWork>
                 </div>
         </div>
       );
