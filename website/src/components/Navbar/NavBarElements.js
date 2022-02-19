@@ -31,9 +31,7 @@ export const NavLink = styled(Link)`
   margin-left:30px;
   cursor: pointer;
 
-  &.active {
-      color: #15cdfc;
-  }
+
 `;
 
 
