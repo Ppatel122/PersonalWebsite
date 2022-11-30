@@ -9,7 +9,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 const Education = () => {
 
-    let educationIconStyles = {}
+    let educationIconStyles = {background:"#FFF",height:'50px', width:'50px'}
     return (
         
         <div className="education" id="education">
@@ -18,7 +18,7 @@ const Education = () => {
                 <IoSchool size={200} ></IoSchool>
             </div>
             <div className="right">
-                <VerticalTimeline>
+                <VerticalTimeline layout={'1-column-left'}>
                     {
                         educationElements.map(element => {
                             let isUniIcon = element.icon === "uni"
@@ -30,7 +30,7 @@ const Education = () => {
                                     date={element.date}
                                     dateClassName="date"
                                     iconStyle={educationIconStyles}
-                                    icon={isUniIcon? <img src="assets/uni.png" width="60" height="60"></img> :<img src="assets/high.png" width="60" height="60" ></img>}
+                                    icon={isUniIcon? <img src="assets/uni.png" width="50" height="50"></img> :<img src="assets/high.png" width="50" height="50" ></img>}
                                 >   
                                     <h2 className="vertical-timeline-element-title">{element.place}</h2>
                                     <h3 className="vertical-timeline-element-title"><i>{element.title}</i></h3>

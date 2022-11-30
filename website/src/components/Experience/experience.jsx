@@ -7,14 +7,14 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import "react-vertical-timeline-component/style.min.css";
 
 const Experience = () => {
-    let educationIconStyles = {background:"#FFF"}
+    let educationIconStyles = {background:"#FFF", height:'50px', width:'50px'}
     return (
         <div className="experience" id="experience">
 
                 
 
                 <div className="left">
-                    <VerticalTimeline>
+                    <VerticalTimeline layout={'1-column-right'}>
                             {
                                 experienceElements.map(element => {
                                     let isUniIcon = element.icon === "uni"
@@ -26,7 +26,7 @@ const Experience = () => {
                                             date={element.date}
                                             dateClassName="date"
                                             iconStyle={educationIconStyles}
-                                            icon={isUniIcon? <img src="assets/uni.png" width="60" height="60"></img> : isUaargIcon? <img src="assets/uaarg.png" width="60" height="60" ></img>: <img src="assets/willow.png" width="60" height="60" ></img> }
+                                            icon={isUniIcon? <img src="assets/uni.png" width="50" height="50"></img> : isUaargIcon? <img src="assets/uaarg.png" width="50" height="50" ></img>: <img src="assets/willow.png" width="50" height="50" ></img> }
                                         >   
                                             <h2 className="vertical-timeline-element-title">{element.place}</h2>
                                             <h3 className="vertical-timeline-element-title"><i>{element.title}</i></h3>

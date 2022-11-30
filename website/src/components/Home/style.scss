@@ -1,14 +1,15 @@
 .intro {
     display: flex;
     height: 100vh;
-    
+    background-color: #eee;
+
     .left {
         flex: 0.5;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 90vh;
-        
+        border: #15cdfc;
 
         .wrapper {
             width: 80%;
@@ -41,13 +42,15 @@
 }
 
 .education {
-    background-color: #ccffcc;
+    background-color: #eee;
     display:flex;
     padding: 20px;
+
         .left{
             flex:0.35;
             text-align: center;
-
+            background-color: #15cdfc;
+            border-radius: 50px;
         }
 
         .right{
@@ -58,19 +61,60 @@
 }
 
 .experience {
-    background-color: #66ccff;
+    background-color: #15cdfc;
     display:flex;
     padding: 20px;
 
         .left{
-            flex:0.7;
+            flex:0.65;
 
         }
 
         .right{
-            flex:0.3;
+            flex:0.35;
             text-align: center;
+            background-color: #eee;
+            border-radius: 50px;
         }
     
 }
 
+.projects {
+    background-color: #eee;
+    display: flex;
+    padding: 20px;
+
+    .slider{
+        height: 350px;
+        display: flex;
+        position: absolute;
+        left: 0;
+        background-color: #eee;
+        
+        .container{
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .item{
+                width: 700px;
+                height: 100%;
+                background-color: white;
+                border-radius: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .left{
+                    flex: 4;
+                    height: 100%;
+                }
+                .right{
+                    flex:8;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

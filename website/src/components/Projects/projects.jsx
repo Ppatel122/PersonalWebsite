@@ -2,15 +2,19 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            height: '90vh'
-          }}
-        >
-          <h1>Projects</h1>
+        <div className='projects' id='projects'>
+            <div className='slider'>
+                <div className='container'>   
+                    <div className='item'>
+                        <div className='left'>
+            
+                        </div>
+                        <div className='right'>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
       );
   
