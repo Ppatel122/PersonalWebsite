@@ -15,7 +15,7 @@
             width: 80%;
             h1{
                 span {
-                    color: #15cdfc;
+                    color: #42858c;
                 }
             }
         }
@@ -24,17 +24,18 @@
     .right {
         flex: 0.50;
         overflow: hidden;
-        background-color: #15cdfc;
+        background-color: #42858c;
 
         align-items: center;
         justify-content: center;
         display: flex;
         .imgContainer{
-            width:700px;
-            height:700px;
+            width:400px;
+            height:400px;
 
             img {
                 height: 100%;
+                border-radius: 50%;
             }
         }
     }
@@ -42,60 +43,84 @@
 }
 
 .education {
-    background-color: #eee;
+    background-color: #35393c;
     display:flex;
-    padding: 20px;
 
         .left{
-            flex:0.35;
-            text-align: center;
-            background-color: #15cdfc;
-            border-radius: 50px;
+            flex:0.50;
+            padding: 10px 30px;
+            background-color: #70a9a1;
+            border-radius: 25px;
+            margin: 3% 5%;
+            
         }
 
         .right{
-            flex:0.65;
+            flex:0.50;
+            background-color: #70a9a1;
+            border-radius: 25px;
+            margin: 3% 5%;
 
+            .skills-section{
+                text-align: center;
+                background-color: #d7f9ff;
+                border-radius: 25px;
+                margin: 0% 10%
+            }
         }
+
+        .section-title{
+            text-align: center;
+            
+        }
+
+
     
 }
 
 .experience {
-    background-color: #15cdfc;
+    background-color: #eee;
     display:flex;
-    padding: 20px;
-
-        .left{
-            flex:0.65;
-
-        }
 
         .right{
-            flex:0.35;
-            text-align: center;
-            background-color: #eee;
+            flex:1;
+            background-color: #499b99;
             border-radius: 50px;
+            margin: 3% 15%
+            
+        }
+
+        // .left{
+        //     flex:0.35;
+        //     text-align: center;
+        //     background-color: #15cdfc;
+        //     border-radius: 50px;
+        //     margin-left: 10%;
+        // }
+
+        .section-title{
+            text-align: center;
         }
     
 }
 
 .projects {
-    background-color: #eee;
+    background-color: #35393c;
     display: flex;
-    padding: 20px;
 
     .slider{
         height: 350px;
         display: flex;
         position: absolute;
         left: 0;
-        background-color: #eee;
+        background-color: #35393c;
         
         .container{
-            width: 100vw;
+            width: 98vw;
             display: flex;
             align-items: center;
             justify-content: center;
+            margin: 3%;
 
             .item{
                 width: 700px;
@@ -117,4 +142,9 @@
             }
         }
     }
+}
+
+.link-buttons {
+    padding-left: 10px;
+    padding-right: 10px;
 }

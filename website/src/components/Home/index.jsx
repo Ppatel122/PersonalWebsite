@@ -10,7 +10,7 @@ const Home = () => {
     useEffect(() => {
         init(occupation.current,{
             showCursor:true,
-            strings: [" Engineering Student at UofA", " Developer Co-op at Willowglen"]
+            strings: [" Engineering Student at UofA"]
         })
     },[])
 
@@ -24,7 +24,7 @@ const Home = () => {
             </div>
             <div className="right">
                 <div className="imgContainer">
-                    <img src="assets/profile.png" alt="Hi"></img>
+                    <img src="assets/profile.jpg" alt="Hi"></img>
                 </div>
             </div>
 

@@ -4,10 +4,11 @@ const Projects = () => {
     return (
         <div className='projects' id='projects'>
             <div className='slider'>
-                <div className='container'>   
+                <div className='container'>
+                    
                     <div className='item'>
                         <div className='left'>
-            
+                        <h1>Projects</h1>   
                         </div>
                         <div className='right'>
                             
