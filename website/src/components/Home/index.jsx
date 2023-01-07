@@ -10,7 +10,7 @@ const Home = () => {
     useEffect(() => {
         init(occupation.current,{
             showCursor:true,
-            strings: [" Engineering Student at UofA"]
+            strings: ["Software Engineering Student"]
         })
     },[])
 
@@ -19,7 +19,7 @@ const Home = () => {
             <div className="left">
                 <div className="wrapper">
                     <h1>Hi, I'm Pranj Patel.</h1>
-                    <h1>Software <span ref={occupation}></span></h1>
+                    <h1><span ref={occupation}></span></h1>
                 </div>
             </div>
             <div className="right">

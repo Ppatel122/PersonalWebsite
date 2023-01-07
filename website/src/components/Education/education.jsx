@@ -3,7 +3,7 @@ import React from 'react';
 import educationElements from './educationElements';
 import {IoSchool} from "react-icons/io5";
 
-import languageElements from './languagesElements';
+import { languageElements } from './languagesElements';
 
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import "react-vertical-timeline-component/style.min.css";
@@ -18,9 +18,9 @@ const Education = () => {
 
             </div> */}
             <div className="left">
-                <h1>Education</h1>
+                <h1 className="section-title">Education</h1>
                 
-                <VerticalTimeline layout={'1-column-left'} lineColor={'#000'}>
+                <VerticalTimeline layout={'2-columns'} lineColor={'#000'}>
                     {
                         educationElements.map(element => {
                             let isUniIcon = element.icon === "uni"
@@ -45,24 +45,6 @@ const Education = () => {
                         })
                     }
                 </VerticalTimeline>
-            </div>
-
-            <div className="right">
-                <h1 className="section-title">Technical Skills</h1>
-                <div className="skills-section">
-                    <h2>Languages</h2>
-                    {/* {languageElements.map((language, index) => { return (
-                            <div key={index} className="language-block">
-                                <div className=""></div>
-                            </div>
-                        )})} */}
-                </div>
-                <div className="skills-section">
-                    <h2>Technologies/Frameworks</h2>    
-                </div>
-                <div className="skills-section">
-                    <h2>Tools</h2>
-                </div>
             </div>
 
         </div>

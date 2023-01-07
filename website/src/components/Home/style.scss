@@ -47,27 +47,14 @@
     display:flex;
 
         .left{
-            flex:0.50;
-            padding: 10px 30px;
+            flex:1;
+            padding: 10px 0px;
             background-color: #70a9a1;
             border-radius: 25px;
-            margin: 3% 5%;
+            margin: 3% 16%;
             
         }
 
-        .right{
-            flex:0.50;
-            background-color: #70a9a1;
-            border-radius: 25px;
-            margin: 3% 5%;
-
-            .skills-section{
-                text-align: center;
-                background-color: #d7f9ff;
-                border-radius: 25px;
-                margin: 0% 10%
-            }
-        }
 
         .section-title{
             text-align: center;
@@ -78,8 +65,27 @@
     
 }
 
-.experience {
+.skills{
     background-color: #eee;
+    display: flex;
+    .right{
+        flex:1;
+        background-color: #70a9a1;
+        border-radius: 25px;
+        margin: 3% 15%;
+    
+        .skills-section{
+            text-align: center;
+            background-color: #d7f9ff;
+            border-radius: 25px;
+            margin: 0% 10%
+        }
+    }
+
+}
+
+.experience {
+    background-color: #35393c;
     display:flex;
 
         .right{
@@ -105,9 +111,14 @@
 }
 
 .projects {
-    background-color: #35393c;
+    background-color: #eee;
     display: flex;
 
+    .title{
+        text-align: center;
+        border-radius: 25px;
+        border: #ffffff;
+    }
     .slider{
         height: 350px;
         display: flex;
@@ -115,36 +126,49 @@
         left: 0;
         background-color: #35393c;
         
-        .container{
-            width: 98vw;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 3%;
 
-            .item{
-                width: 700px;
-                height: 100%;
-                background-color: white;
-                border-radius: 20px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
 
-                .left{
-                    flex: 4;
-                    height: 100%;
-                }
-                .right{
-                    flex:8;
-                    height: 100%;
-                }
-            }
-        }
+        // .container{
+        //     width: 98vw;
+        //     display: flex;
+        //     align-items: center;
+        //     justify-content: center;
+        //     margin: 3%;
+
+        //     .item{
+        //         width: 700px;
+        //         height: 100%;
+        //         background-color: white;
+        //         border-radius: 20px;
+        //         display: flex;
+        //         align-items: center;
+        //         justify-content: center;
+
+        //         .left{
+        //             flex: 4;
+        //             height: 100%;
+        //         }
+        //         .right{
+        //             flex:8;
+        //             height: 100%;
+        //         }
+        //     }
+        // }
     }
+}
+
+.contact{
+    background-color: #35393c;
+    display: flex;
 }
 
 .link-buttons {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+#tsparticles {
+    z-index: -10;
+    top: 0;
+    left: 0;
 }
