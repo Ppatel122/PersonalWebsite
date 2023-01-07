@@ -24,10 +24,6 @@ function particle() {
             fpsLimit: 120,
             interactivity: {
                 events: {
-                    onHover: {
-                        enable: true,
-                        mode: "repulse",
-                    },
                     resize: true,
                 },
                 modes: {
@@ -46,7 +42,7 @@ function particle() {
                 },
                 links: {
                     color: "#000",
-                    distance: 150,
+                    distance: 250,
                     enable: true,
                     opacity: 0.5,
                     width: 1,
@@ -61,7 +57,7 @@ function particle() {
                         default: "bounce",
                     },
                     random: true,
-                    speed: 2,
+                    speed: 3,
                     straight: false,
                 },
                 number: {
@@ -69,10 +65,10 @@ function particle() {
                         enable: true,
                         area: 800,
                     },
-                    value: 80,
+                    value: 50,
                 },
                 opacity: {
-                    value: 0.5,
+                    value: 0.7,
                 },
                 shape: {
                     type: "square",

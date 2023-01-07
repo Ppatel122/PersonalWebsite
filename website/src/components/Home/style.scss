@@ -12,19 +12,26 @@
         border: #15cdfc;
 
         .wrapper {
+            z-index: 2;
             width: 80%;
+            padding: 10px 20px;
+            margin: 10% 30% 10% 10%;
+            border-radius: 25px;
+            background-color: #fff;
+            
             h1{
                 span {
-                    color: #42858c;
+                    color: #70a9a1;
                 }
             }
         }
     }
     
     .right {
+        z-index: 2;
         flex: 0.50;
         overflow: hidden;
-        background-color: #42858c;
+        background-color: #70a9a1;
 
         align-items: center;
         justify-content: center;
@@ -43,10 +50,12 @@
 }
 
 .education {
+
     background-color: #35393c;
     display:flex;
 
         .left{
+            z-index: 2;
             flex:1;
             padding: 10px 0px;
             background-color: #70a9a1;
@@ -69,26 +78,52 @@
     background-color: #eee;
     display: flex;
     .right{
+        z-index: 2;
         flex:1;
         background-color: #70a9a1;
         border-radius: 25px;
         margin: 3% 15%;
+        padding: 10px;
     
         .skills-section{
             text-align: center;
-            background-color: #d7f9ff;
             border-radius: 25px;
-            margin: 0% 10%
+            margin: 2% 10%;
+            
+        }
+
+        .section-title{
+            text-align: center;
+        }
+
+        .skill-icon{
+            background-color: #d7f9ff;
+            border-top-right-radius: 15px;
+            border-top-left-radius: 15px;
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 150px;
+        }
+
+        .skill-language{
+            background-color: #eee;
+            border-bottom-right-radius: 15px;
+            border-bottom-left-radius: 15px;
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 150px;
         }
     }
 
 }
 
 .experience {
+    z-index:1;
     background-color: #35393c;
     display:flex;
 
         .right{
+            z-index: 2;
             flex:1;
             background-color: #499b99;
             border-radius: 50px;
@@ -114,52 +149,62 @@
     background-color: #eee;
     display: flex;
 
-    .title{
-        text-align: center;
+    .right{
+        z-index: 2;
+        flex:1;
+        background-color: #70a9a1;
         border-radius: 25px;
-        border: #ffffff;
-    }
-    .slider{
-        height: 350px;
-        display: flex;
-        position: absolute;
-        left: 0;
-        background-color: #35393c;
+        margin: 3% 25%;
+        padding: 10px;
+
+
+        .title{
+            text-align: center;
+        }
+    
+        .skills-section{
+            text-align: center;
+            border-radius: 25px;
+            margin: 2% 10%;
+            
+        }
         
-
-
-        // .container{
-        //     width: 98vw;
-        //     display: flex;
-        //     align-items: center;
-        //     justify-content: center;
-        //     margin: 3%;
-
-        //     .item{
-        //         width: 700px;
-        //         height: 100%;
-        //         background-color: white;
-        //         border-radius: 20px;
-        //         display: flex;
-        //         align-items: center;
-        //         justify-content: center;
-
-        //         .left{
-        //             flex: 4;
-        //             height: 100%;
-        //         }
-        //         .right{
-        //             flex:8;
-        //             height: 100%;
-        //         }
-        //     }
-        // }
+        .project-block{
+            justify-content: center;
+            display: flex;
+            padding: 20px;
+        }
+           
+        .project-icon{
+            background-color: #d7f9ff;
+            border-top-right-radius: 15px;
+            border-top-left-radius: 15px;
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 150px;
+        }
+    
+        .project-name{
+            background-color: #eee;
+            border-bottom-right-radius: 15px;
+            border-bottom-left-radius: 15px;
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 150px;
+            text-align: center;
+        }
+        
     }
+
+
+
 }
 
 .contact{
     background-color: #35393c;
     display: flex;
+
+
 }
 
 .link-buttons {
@@ -168,7 +213,7 @@
 }
 
 #tsparticles {
-    z-index: -10;
+    z-index: 0;
     top: 0;
     left: 0;
 }

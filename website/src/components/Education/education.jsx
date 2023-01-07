@@ -14,9 +14,6 @@ const Education = () => {
     return (
         
         <div className="education" id="education">
-            {/* <div className='left'>
-
-            </div> */}
             <div className="left">
                 <h1 className="section-title">Education</h1>
                 
