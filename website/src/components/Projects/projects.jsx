@@ -1,7 +1,8 @@
 import React from 'react';
 
-import {MdOutlineWeb} from "react-icons/md";
-import {FaRobot, FaHamburger} from "react-icons/fa";
+import {BiFoodMenu} from "react-icons/bi";
+import {FcTemplate} from "react-icons/fc";
+import {FaDiscord, FaLeaf} from "react-icons/fa";
 
 const Projects = () => {
     return (
@@ -11,7 +12,7 @@ const Projects = () => {
                 <div className="project-block">
                     <div className="skill-block">
                         <div className="project-icon">
-                            <MdOutlineWeb size="150"/>
+                            <FcTemplate size="250"/>
                         </div>
                         <div className="project-name">
                             <b>Portfolio Website</b>
@@ -19,7 +20,7 @@ const Projects = () => {
                     </div>
                     <div className="skill-block">
                         <div className="project-icon">
-                            <FaHamburger size="150"/>
+                            <BiFoodMenu size="250" color="#3fd16c"/>
                         </div>
                         <div className="project-name">
                             <b>FoodVerse</b>
@@ -27,10 +28,18 @@ const Projects = () => {
                     </div>
                     <div className="skill-block">
                         <div className="project-icon">
-                            <FaRobot size="150"/>
+                            <FaDiscord size="250" color="#7289da"/>
                         </div>
                         <div className="project-name">
                             <b>Discord Bot</b>
+                        </div>
+                    </div>
+                    <div className="skill-block wip">
+                        <div className="project-icon">
+                            <FaLeaf size="250" color="#69be94"/>
+                        </div>
+                        <div className="project-name">
+                            <b>EcoTracker</b>
                         </div>
                     </div>
                 </div>

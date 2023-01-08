@@ -10,6 +10,7 @@
         align-items: center;
         height: 90vh;
         border: #15cdfc;
+        box-shadow: 0.5vw #000;
 
         .wrapper {
             z-index: 2;
@@ -21,7 +22,7 @@
             
             h1{
                 span {
-                    color: #70a9a1;
+                    color: #fa80a5;
                 }
             }
         }
@@ -31,7 +32,7 @@
         z-index: 2;
         flex: 0.50;
         overflow: hidden;
-        background-color: #70a9a1;
+        background-image: linear-gradient(to top right, #fa80a5, #fae152);
 
         align-items: center;
         justify-content: center;
@@ -58,7 +59,7 @@
             z-index: 2;
             flex:1;
             padding: 10px 0px;
-            background-color: #70a9a1;
+            background-image: linear-gradient(to bottom left, #fa80a5, #fae152);
             border-radius: 25px;
             margin: 3% 16%;
             
@@ -80,11 +81,17 @@
     .right{
         z-index: 2;
         flex:1;
-        background-color: #70a9a1;
+        // background-image: linear-gradient(to bottom right, #fae152, #fa80a5);
         border-radius: 25px;
-        margin: 3% 15%;
+        margin: 3% 10%;
         padding: 10px;
     
+        .project-block{
+            justify-content: center;
+            display: flex;
+            padding: 20px;
+        }
+
         .skills-section{
             text-align: center;
             border-radius: 25px;
@@ -97,7 +104,8 @@
         }
 
         .skill-icon{
-            background-color: #d7f9ff;
+            background-image: linear-gradient(to bottom right, #fae152, #fa80a5);
+            // background-color: #d7f9ff;
             border-top-right-radius: 15px;
             border-top-left-radius: 15px;
             margin-left: 10px;
@@ -125,9 +133,10 @@
         .right{
             z-index: 2;
             flex:1;
-            background-color: #499b99;
-            border-radius: 50px;
-            margin: 3% 15%
+            background-image: linear-gradient(to bottom left, #fa80a5, #fae152);
+            border-radius: 25px;
+            margin: 3% 16%;
+            padding: 10px 0px;
             
         }
 
@@ -152,9 +161,8 @@
     .right{
         z-index: 2;
         flex:1;
-        background-color: #70a9a1;
         border-radius: 25px;
-        margin: 3% 25%;
+        margin: 3% 16%;
         padding: 10px;
 
 
@@ -176,21 +184,18 @@
         }
            
         .project-icon{
-            background-color: #d7f9ff;
-            border-top-right-radius: 15px;
-            border-top-left-radius: 15px;
-            margin-left: 10px;
-            margin-right: 10px;
-            width: 150px;
+            background-image: linear-gradient(to bottom right, #fae152, #fa80a5);
+            border-radius: 15px 15px 0px 0px;
+            margin: 0px 10px;
+            padding: 10px;
+            width: 250px;
         }
     
         .project-name{
             background-color: #eee;
-            border-bottom-right-radius: 15px;
-            border-bottom-left-radius: 15px;
-            margin-left: 10px;
-            margin-right: 10px;
-            width: 150px;
+            border-radius: 0px 0px 15px 15px;
+            margin: 0px 10px;
+            width: 250px;
             text-align: center;
         }
         
@@ -203,6 +208,19 @@
 .contact{
     background-color: #35393c;
     display: flex;
+
+    .container{
+        z-index: 2;
+        flex:1;
+        background-image: linear-gradient(to bottom left, #fa80a5, #fae152);
+        border-radius: 25px;
+        margin: 3% 25%;
+        padding: 10px;
+
+        .section-title{
+            text-align: center;
+        }
+    }
 
 
 }

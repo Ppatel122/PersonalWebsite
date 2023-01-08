@@ -1,7 +1,7 @@
 import React from 'react';
 
 import educationElements from './educationElements';
-import {IoSchool} from "react-icons/io5";
+import { FcGraduationCap } from 'react-icons/fc';
 
 import { languageElements } from './languagesElements';
 
@@ -10,14 +10,14 @@ import "react-vertical-timeline-component/style.min.css";
 
 const Education = () => {
 
-    let educationIconStyles = {background:"#d7f9ff", height:'50px', width:'50px'}
+    let educationIconStyles = {background:"#fff", height:'50px', width:'50px'}
     return (
         
         <div className="education" id="education">
             <div className="left">
                 <h1 className="section-title">Education</h1>
                 
-                <VerticalTimeline layout={'2-columns'} lineColor={'#000'}>
+                <VerticalTimeline layout={'2-columns'} lineColor={'#fff'}>
                     {
                         educationElements.map(element => {
                             let isUniIcon = element.icon === "uni"
@@ -25,13 +25,13 @@ const Education = () => {
                             return (
                                 
                                 <VerticalTimelineElement
-                                    contentStyle={{ background: '#d7f9ff', color: '#000' }}
+                                    contentStyle={{ background: '#fff', color: '#000' }}
                                     contentArrowStyle={{ borderRight: '7px solid  #d7f9ff' }}
                                     key={element.key}
                                     date={element.date}
                                     dateClassName="date"
                                     iconStyle={educationIconStyles}
-                                    icon={isUniIcon? <IoSchool></IoSchool> :<IoSchool></IoSchool>}
+                                    icon={isUniIcon? <FcGraduationCap></FcGraduationCap> :<FcGraduationCap></FcGraduationCap>}
                                 >   
                                     <h2 className="vertical-timeline-element-title">{element.place}</h2>
                                     <h3 className="vertical-timeline-element-title"><i>{element.title}</i></h3>

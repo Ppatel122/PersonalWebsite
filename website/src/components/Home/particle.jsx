@@ -31,7 +31,7 @@ function particle() {
                         quantity: 4,
                     },
                     repulse: {
-                        distance: 200,
+                        distance: 175,
                         duration: 0.4,
                     },
                 },
@@ -47,9 +47,6 @@ function particle() {
                     opacity: 0.5,
                     width: 1,
                 },
-                collisions: {
-                    enable: true,
-                },
                 move: {
                     directions: "none",
                     enable: true,
@@ -57,7 +54,7 @@ function particle() {
                         default: "bounce",
                     },
                     random: true,
-                    speed: 3,
+                    speed: 1.5,
                     straight: false,
                 },
                 number: {
