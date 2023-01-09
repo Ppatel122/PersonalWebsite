@@ -1,21 +1,14 @@
 import React from 'react';
-
-import { languageElements } from './languagesElements';
-import { technologyElements } from './technologyElements';
-import { toolsElements } from './toolsElements';
+import "./skills.scss";
 
 import {DiPython, DiLinux, DiJava, DiHtml5, DiCss3, DiJavascript1, DiSqllite, DiReact, DiGit, DiWindows, DiFirebase, DiJira} from "react-icons/di";
 import {SiVmware, SiFirebase, SiVisualstudiocode} from "react-icons/si";
 import { FaConfluence } from 'react-icons/fa';
 
 const Skills = () => {
-
-    
     return (
-        
         <div className="skills" id="skills">
-
-            <div className="right">
+            <div className="container">
                 <h1 className="section-title">Technical Skills</h1>
                 <div className="skills-section">
                     <h2 className='skills-section-title'>Languages</h2>
@@ -156,10 +149,8 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-
         </div>
       );
-  
 };
 
 export default Skills;

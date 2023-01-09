@@ -17,7 +17,6 @@ let educationElements = [
         date: "September 2016 - June 2019",
         icon: "school",
     }
-
   ];
   
   export default educationElements;

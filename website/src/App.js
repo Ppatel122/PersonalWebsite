@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {BrowserRouter as Router} from 'react-router-dom';
 import NavBar from './components/Navbar/NavBar';
 import Particle from './components/Home/particle';
 import Home from './components/Home';

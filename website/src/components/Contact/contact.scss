@@ -1,0 +1,28 @@
+.contact{
+    z-index: 2;
+    background-color: #35393c;
+    display: flex;
+
+    .container{
+        z-index: 2;
+        flex:1;
+        background-color: #fff;
+        border-radius: 25px;
+        margin: 3% 27%;
+        padding: 10px;
+
+        .contact-block{
+            justify-content: center;
+            display: flex;
+            padding: 20px;
+
+            .link-buttons{
+                padding: 0px 40px;
+            }
+        }
+
+        .section-title{
+            text-align: center;
+        }
+    }
+}

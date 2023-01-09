@@ -19,13 +19,9 @@ function particle() {
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
-
         options={{
-            fpsLimit: 120,
+            fpsLimit: 144,
             interactivity: {
-                events: {
-                    resize: true,
-                },
                 modes: {
                     push: {
                         quantity: 4,
@@ -74,9 +70,7 @@ function particle() {
                     value: { min: 5, max: 10 },
                 },
             },
-            detectRetina: true,
-        }}
-        />
+        }}/>
     )
 }
 

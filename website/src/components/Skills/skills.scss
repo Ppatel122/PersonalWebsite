@@ -1,0 +1,78 @@
+.skills{
+    background-color: #eee;
+    display: flex;
+
+    .container{
+        z-index: 2;
+        flex:1;
+        border-radius: 25px;
+        margin: 3% 9%;
+        padding: 10px;
+    
+        .project-block{
+            justify-content: center;
+            flex-wrap: wrap;
+            display: flex;
+            padding: 20px;
+        }
+
+        .skills-section{
+            text-align: center;
+            border-radius: 25px;
+            margin: 2% 10%;
+            
+        }
+
+        .skills-section-title{
+            background-image: linear-gradient(to top left, #f1d329, #f35181);
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 7px 7px 4px  grey;
+            
+        }
+
+        .section-title{
+            text-align: center;
+            background-image: linear-gradient(to top left, #f1d329, #f35181);
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 7px 7px 4px  grey;
+        }
+
+        .skill-block{
+            position: relative;
+        }
+
+        .skill-icon{
+            background-image: linear-gradient(to bottom right, #fae152, #fa80a5);
+            border-radius: 28px;
+            margin: 10px;
+            width: 150px;
+        }
+
+        .skill-language{
+            visibility: hidden;
+            position:absolute;
+            text-align: center;
+            font-size: 25px;
+            color: #000;
+            opacity: 0;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            border-radius: 28px;
+            vertical-align: middle;
+            line-height: 150px;
+            background-image: linear-gradient(to top left, #f1d329, #f35181);
+            transition: 0.5s;
+            width: 150px;
+            margin: 10px;
+        }
+
+        .skill-block:hover .skill-language{
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+}

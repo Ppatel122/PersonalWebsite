@@ -1,0 +1,18 @@
+.experience {
+    z-index:1;
+    background-color: #35393c;
+    display:flex;
+
+        .container{
+            z-index: 2;
+            flex:1;
+            background-image: linear-gradient(to bottom left, #fa80a5, #fae152);
+            border-radius: 25px;
+            margin: 3% 16%;
+            padding: 10px 0px;
+        }
+
+        .section-title{
+            text-align: center;
+        }
+}

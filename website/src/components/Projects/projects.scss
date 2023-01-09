@@ -1,0 +1,67 @@
+.projects {
+    background-color: #eee;
+    display: flex;
+
+    .container{
+        z-index: 2;
+        flex:1;
+        border-radius: 25px;
+        margin: 3% 16%;
+        padding: 10px;
+ 
+        .text{
+            text-align: center;
+            vertical-align: middle;
+            z-index:2;
+            background-image: linear-gradient(to bottom right, #fae152, #fa80a5);
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 7px 7px 4px  grey;
+        }
+        
+        .project-block{
+            justify-content: center;
+            flex-wrap: wrap;
+            display: flex;
+            padding: 20px;
+        }
+           
+        .project-info{
+            position: relative;
+        }
+
+        .project-icon{
+            background-image: linear-gradient(to bottom right, #fae152, #fa80a5);
+            border-radius: 28px 28px 28px 28px;
+            margin: 0px 10px;
+            padding: 10px;
+            width: 250px;
+        }
+
+        .project-name{
+            visibility: hidden;
+            position:absolute;
+            text-align: center;
+            color: #000;
+            font-size: 20px;
+            opacity: 0;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            vertical-align: middle;
+            background-image: linear-gradient(to top left, #f1d329, #f35181);
+            transition: 0.5s;
+            padding: 10px;
+            width: 250px;
+            margin: 0px 10px;
+            border-radius: 28px;
+            transition: opacity 0.5s, visibility 0.5s;
+        }
+        
+        .project-info:hover .project-name{
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+}

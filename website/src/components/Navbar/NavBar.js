@@ -1,8 +1,5 @@
-import React , {useState, useEffect} from 'react';
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { SiGmail } from "react-icons/si";
-import { Nav, NavLink, NavMenu, NavBtn, NavBtnLink } from './NavBarElements';
-import {HashLink as Link} from "react-router-hash-link"
+import React , {useState} from 'react';
+import { Nav, NavLink, NavMenu } from './NavBarElements';
 
 const NavBar = () => {
     const[navbar, setNavbar] = useState(false);
@@ -40,17 +37,6 @@ const NavBar = () => {
                     <b>Contact</b>
                 </NavLink>
             </NavMenu>
-            {/* <NavMenu>
-                <a href="https://github.com/Ppatel122" class="link-buttons">
-                    <FaGithub size={40} color={"white"}/>
-                </a>
-                <a href="https://www.linkedin.com/in/pranj-patel-a1a4b81aa/"  class="link-buttons">
-                    <FaLinkedin size={40} color={"#0e76a8"} />
-                </a>
-                <a href="mailto:pranj@ualberta.ca" class="link-buttons">
-                    <SiGmail size={40} color={"red"}/>
-                </a>
-            </NavMenu> */}
         </Nav>
         </>
     );

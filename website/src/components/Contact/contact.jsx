@@ -1,4 +1,5 @@
 import React from 'react';
+import "./contact.scss"
 
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
@@ -22,7 +23,6 @@ const Contact = () => {
             </div>
         </div>
       );
-  
 };
 
 export default Contact;

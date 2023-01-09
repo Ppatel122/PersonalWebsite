@@ -1,7 +1,8 @@
 import React from 'react';
-import "./style.scss";
 import {init} from 'ityped';
 import { useEffect, useRef } from 'react';
+
+import "./index.scss";
 
 const Home = () => {
 
@@ -27,10 +28,8 @@ const Home = () => {
                     <img src="assets/profile.jpg" alt="Hi"></img>
                 </div>
             </div>
-            
         </div>
       );
-  
 };
 
 export default Home;
