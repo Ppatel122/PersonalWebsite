@@ -1,45 +1,43 @@
 import React from 'react';
 
 import {BiFoodMenu} from "react-icons/bi";
-import {FcTemplate} from "react-icons/fc";
+import {CgWebsite} from "react-icons/cg";
 import {FaDiscord, FaLeaf} from "react-icons/fa";
 
 const Projects = () => {
     return (
         <div className='projects' id='projects'>
             <div className="right">
-                <h1 className="title">Projects</h1>
+                <h1 className="title"><div className="text">
+                    Projects
+                </div></h1>
                 <div className="project-block">
                     <div className="skill-block">
-                        <div className="project-icon">
-                            <FcTemplate size="250"/>
-                        </div>
+                        <CgWebsite className="project-icon" size="250"/>
                         <div className="project-name">
                             <b>Portfolio Website</b>
+                            <p>Created a website using React, HTML, CSS and Javascript to showcase my education, experience and projects.</p>
                         </div>
                     </div>
                     <div className="skill-block">
-                        <div className="project-icon">
-                            <BiFoodMenu size="250" color="#3fd16c"/>
-                        </div>
+                        <BiFoodMenu className="project-icon" size="250" />
                         <div className="project-name">
                             <b>FoodVerse</b>
+                            <p>Programmed an android app using Java to help reduce food wastage through the use of ingredient tracking and meal planning.</p>
                         </div>
                     </div>
                     <div className="skill-block">
-                        <div className="project-icon">
-                            <FaDiscord size="250" color="#7289da"/>
-                        </div>
+                        <FaDiscord className="project-icon" size="250" />
                         <div className="project-name">
                             <b>Discord Bot</b>
+                            <p>Collaborated with 3 team members in a 24 hour hackathon to create an multipurpose discord bot using Python.</p>
                         </div>
                     </div>
                     <div className="skill-block wip">
-                        <div className="project-icon">
-                            <FaLeaf size="250" color="#69be94"/>
-                        </div>
+                        <FaLeaf className="project-icon" size="250" />
                         <div className="project-name">
-                            <b>EcoTracker</b>
+                            <b>EcoTracker (IN PROGRESS)</b>
+                            <p>Creating a web app to show the ecological footprint of daily routine activities.</p>
                         </div>
                     </div>
                 </div>

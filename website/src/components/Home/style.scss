@@ -19,7 +19,7 @@
             margin: 10% 30% 10% 10%;
             border-radius: 25px;
             background-color: #fff;
-            
+            box-shadow: 0px 7px 7px 4px  grey;
             h1{
                 span {
                     color: #fa80a5;
@@ -44,6 +44,7 @@
             img {
                 height: 100%;
                 border-radius: 50%;
+                
             }
         }
     }
@@ -51,7 +52,7 @@
 }
 
 .education {
-
+    transition: 0.5s;
     background-color: #35393c;
     display:flex;
 
@@ -83,11 +84,12 @@
         flex:1;
         // background-image: linear-gradient(to bottom right, #fae152, #fa80a5);
         border-radius: 25px;
-        margin: 3% 10%;
+        margin: 3% 9%;
         padding: 10px;
     
         .project-block{
             justify-content: center;
+            flex-wrap: wrap;
             display: flex;
             padding: 20px;
         }
@@ -99,27 +101,58 @@
             
         }
 
+        .skills-section-title{
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 7px 7px 4px  grey;
+            
+        }
+
         .section-title{
             text-align: center;
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 7px 7px 4px  grey;
+        }
+
+        .skill-block{
+            position: relative;
         }
 
         .skill-icon{
             background-image: linear-gradient(to bottom right, #fae152, #fa80a5);
             // background-color: #d7f9ff;
-            border-top-right-radius: 15px;
-            border-top-left-radius: 15px;
-            margin-left: 10px;
-            margin-right: 10px;
+            border-radius: 28px;
+            margin: 10px;
             width: 150px;
         }
 
         .skill-language{
-            background-color: #eee;
-            border-bottom-right-radius: 15px;
-            border-bottom-left-radius: 15px;
-            margin-left: 10px;
-            margin-right: 10px;
+            visibility: hidden;
+            position:absolute;
+            text-align: center;
+            font-size: 25px;
+            color: #000;
+            opacity: 0;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            border-radius: 28px;
+            vertical-align: middle;
+            line-height: 150px;
+            background-image: linear-gradient(to top left, #f1d329, #f35181);
+            transition: 0.5s;
             width: 150px;
+            margin: 10px;
+        }
+
+
+        .skill-block:hover .skill-language{
+            visibility: visible;
+            opacity: 1;
         }
     }
 
@@ -168,6 +201,16 @@
 
         .title{
             text-align: center;
+
+            
+            .text{
+                vertical-align: middle;
+                z-index:2;
+                background-color: #eee;
+                padding: 10px;
+                border-radius: 10px;
+                box-shadow: 0px 7px 7px 4px  grey;
+            }
         }
     
         .skills-section{
@@ -177,28 +220,56 @@
             
         }
         
+
+
         .project-block{
             justify-content: center;
+            flex-wrap: wrap;
             display: flex;
             padding: 20px;
         }
            
+
+        .skill-block{
+            position: relative;
+        }
+
         .project-icon{
             background-image: linear-gradient(to bottom right, #fae152, #fa80a5);
-            border-radius: 15px 15px 0px 0px;
+            border-radius: 28px 28px 28px 28px;
             margin: 0px 10px;
             padding: 10px;
             width: 250px;
+
         }
-    
+
+
         .project-name{
-            background-color: #eee;
-            border-radius: 0px 0px 15px 15px;
-            margin: 0px 10px;
-            width: 250px;
+            visibility: hidden;
+            position:absolute;
             text-align: center;
+            color: #000;
+            font-size: 20px;
+            opacity: 0;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            vertical-align: middle;
+            background-image: linear-gradient(to top left, #f1d329, #f35181);
+            transition: 0.5s;
+            padding: 10px;
+            width: 250px;
+            margin: 0px 10px;
+            border-radius: 28px;
+            transition: opacity 0.5s, visibility 0.5s;
         }
         
+        .skill-block:hover .project-name{
+            visibility: visible;
+            
+            opacity: 1;
+        }
     }
 
 
@@ -206,16 +277,27 @@
 }
 
 .contact{
+    z-index: 2;
     background-color: #35393c;
     display: flex;
 
     .container{
         z-index: 2;
         flex:1;
-        background-image: linear-gradient(to bottom left, #fa80a5, #fae152);
+        background-color: #fff;
         border-radius: 25px;
-        margin: 3% 25%;
+        margin: 3% 27%;
         padding: 10px;
+
+        .contact-block{
+            justify-content: center;
+            display: flex;
+            padding: 20px;
+
+            .link-buttons{
+                padding: 0px 40px;
+            }
+        }
 
         .section-title{
             text-align: center;

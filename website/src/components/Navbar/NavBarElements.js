@@ -1,4 +1,4 @@
-import { NavLink as Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
@@ -8,7 +8,7 @@ export const Nav = styled.nav`
   z-index: 10;
   fixed: top;
   width: 100%;
-  background: transparent;
+  background: #000;
   height: 75px;
   display: flex;
   align-items: center;
