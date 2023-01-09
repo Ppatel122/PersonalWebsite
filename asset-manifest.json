@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Ppatel122.github.io/static/css/main.b49d3a68.css",
-    "main.js": "/Ppatel122.github.io/static/js/main.d179bba6.js",
-    "index.html": "/Ppatel122.github.io/index.html",
-    "main.b49d3a68.css.map": "/Ppatel122.github.io/static/css/main.b49d3a68.css.map",
-    "main.d179bba6.js.map": "/Ppatel122.github.io/static/js/main.d179bba6.js.map"
+    "main.css": "/static/css/main.b49d3a68.css",
+    "main.js": "/static/js/main.7c7c3a79.js",
+    "index.html": "/index.html",
+    "main.b49d3a68.css.map": "/static/css/main.b49d3a68.css.map",
+    "main.7c7c3a79.js.map": "/static/js/main.7c7c3a79.js.map"
   },
   "entrypoints": [
     "static/css/main.b49d3a68.css",
-    "static/js/main.d179bba6.js"
+    "static/js/main.7c7c3a79.js"
   ]
 }
