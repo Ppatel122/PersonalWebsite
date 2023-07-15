@@ -1,15 +1,24 @@
 let experienceElements = [
     {
+        id: 1,
+        title: "Software Developer Co-op",
+        location: "Calgary, Alberta",
+        place: "Seisware International",
+        description: "",
+        date: "May 2023 - Present",
+        icon: "willow",
+      },
+    {
         id: 2,
-        title: "Imaging Team Member",
+        title: "Software Developer",
         location: "Edmonton, Alberta",
         place: "University of Alberta Ariel Robotics Group",
         description: "",
-        date: "May 2021 - Present",
+        date: "May 2021 - Jan 2023",
         icon: "uaarg",
       },
     {
-      id: 1,
+      id: 3,
       title: "Software Developer Co-op",
       location: "Edmonton, Alberta",
       place: "Willowglen Systems",
@@ -18,7 +27,7 @@ let experienceElements = [
       icon: "willow",
     },
     {
-        id: 3,
+        id: 4,
         title: "Frontend Developer Co-op",
         location: "Edmonton, Alberta",
         place: "University of Alberta",
