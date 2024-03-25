@@ -5,7 +5,7 @@ let experienceElements = [
         location: "Calgary, Alberta",
         place: "Seisware International",
         description: "",
-        date: "May 2023 - Dec 2024",
+        date: "May 2023 - Dec 2023",
         icon: "willow",
       },
     {
