@@ -1,11 +1,11 @@
 let experienceElements = [
     {
         id: 1,
-        title: "Software Developer Co-op",
+        title: "Software Engineer Intern",
         location: "Calgary, Alberta",
         place: "Seisware International",
         description: "",
-        date: "May 2023 - Present",
+        date: "May 2023 - Dec 2024",
         icon: "willow",
       },
     {
@@ -18,13 +18,13 @@ let experienceElements = [
         icon: "uaarg",
       },
     {
-      id: 3,
-      title: "Software Developer Co-op",
-      location: "Edmonton, Alberta",
-      place: "Willowglen Systems",
-      description: "",
-      date: "January 2022 - August 2022",
-      icon: "willow",
+        id: 3,
+        title: "Software Engineer Intern",
+        location: "Edmonton, Alberta",
+        place: "Willowglen Systems",
+        description: "",
+        date: "January 2022 - August 2022",
+        icon: "willow",
     },
     {
         id: 4,

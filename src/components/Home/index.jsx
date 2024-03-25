@@ -20,7 +20,7 @@ const Home = () => {
             <div className="left">
                 <div className="wrapper">
                     <h1>Hi, I'm <span ref={occupation}></span></h1>
-                    <h1>Software Engineering Student</h1>
+                    <h1>Software Engineer</h1>
                 </div>
             </div>
             <div className="right">

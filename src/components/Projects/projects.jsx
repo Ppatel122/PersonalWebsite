@@ -21,6 +21,13 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="project-info">
+                        <FaLeaf className="project-icon" size="250" />
+                        <div className="project-name">
+                            <b>Air Quality Dashboard (IN PROGRESS)</b>
+                            <p>Creating a web app to visualize and compare air quality levels across the world.</p>
+                        </div>
+                    </div>
+                    <div className="project-info">
                         <BiFoodMenu className="project-icon" size="250" />
                         <div className="project-name">
                             <b>FoodVerse</b>
@@ -32,13 +39,6 @@ const Projects = () => {
                         <div className="project-name">
                             <b>Discord Bot</b>
                             <p>Collaborated with 3 team members in a 24 hour hackathon to create an multipurpose discord bot using Python.</p>
-                        </div>
-                    </div>
-                    <div className="project-info">
-                        <FaLeaf className="project-icon" size="250" />
-                        <div className="project-name">
-                            <b>EcoTracker (IN PROGRESS)</b>
-                            <p>Creating a web app to show the ecological footprint of daily routine activities.</p>
                         </div>
                     </div>
                 </div>

@@ -5,7 +5,7 @@ let educationElements = [
         location: "Edmonton, Alberta",
         place: "University of Alberta",
         description: "",
-        date: "September 2019 - Present",
+        date: "September 2019 - April 2024",
         icon: "uni",
     },
     {

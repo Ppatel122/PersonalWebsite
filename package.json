@@ -17,6 +17,9 @@
     "react-scripts": "5.0.0",
     "react-tsparticles": "^2.7.1",
     "react-vertical-timeline-component": "^3.5.2",
+    "resolve-url-loader": "^5.0.0",
+    "saas": "^1.0.0",
+    "sass-loader": "^14.1.1",
     "styled-components": "^5.3.3",
     "tsparticles": "^2.7.1",
     "web-vitals": "^2.1.3"
